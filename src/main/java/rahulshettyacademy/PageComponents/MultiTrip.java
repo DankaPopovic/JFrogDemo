@@ -50,7 +50,7 @@ public class MultiTrip extends AbstractComponent implements SearchFlightAvail {
         findElement(By.xpath("(//a[@value='"+destination2+"'])[3]")).click();
     }
 
-    public void makeStateReady(Consumer<org.rahulshettyacademy.PageComponents.MultiTrip> consumer)
+    public void makeStateReady(Consumer<MultiTrip> consumer)
     {
         System.out.println("I am inside Multi trip ");
         findElement(multiCity_rdo).click();

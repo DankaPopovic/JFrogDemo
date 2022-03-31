@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.583 s <<< FAILURE! - in TestSuite
+setup(rahulshettyacademy.DemoTest)  Time elapsed: 0.431 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable must exist: C:\chromedriver.exe
+	at rahulshettyacademy.DemoTest.setup(DemoTest.java:22)
+

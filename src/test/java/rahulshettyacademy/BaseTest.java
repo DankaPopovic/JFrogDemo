@@ -16,7 +16,7 @@ public class BaseTest {
 
     public WebDriver initializeDriver()
     {
-        System.setProperty("webdriver.chrome.driver","C://chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C://Users//dpopovic//apache-maven-3.8.4//bin//ghJenkTests//src//main//resources//chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         return driver;
     }
