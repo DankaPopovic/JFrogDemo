@@ -35,7 +35,7 @@ WebDriver driver;
         System.out.println(travelHomePage.getNavigationBar().getFlightAttribute());
         System.out.println(travelHomePage.getFooterNav().getLinkCount());
         System.out.println(travelHomePage.getNavigationBar().getLinkCount());
-        System.out.println("I love you");
+        System.out.println("I love, toooooo");
         travelHomePage.setBookingStrategy("multitrip");
 
         travelHomePage.checkAvail(reservationDetails);
