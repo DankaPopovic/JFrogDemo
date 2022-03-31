@@ -9,6 +9,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.sql.SQLOutput;
 import java.util.HashMap;
 import java.util.List;
 
@@ -34,6 +35,7 @@ WebDriver driver;
         System.out.println(travelHomePage.getNavigationBar().getFlightAttribute());
         System.out.println(travelHomePage.getFooterNav().getLinkCount());
         System.out.println(travelHomePage.getNavigationBar().getLinkCount());
+        System.out.println("I love you");
         travelHomePage.setBookingStrategy("multitrip");
 
         travelHomePage.checkAvail(reservationDetails);
